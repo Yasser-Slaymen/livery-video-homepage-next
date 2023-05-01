@@ -1,0 +1,16 @@
+.FreeDemo{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    /* gap: 1em; */
+    max-width:45em ;
+}
+@media (min-width: 45em) {
+    .FreeDemo{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1em;
+        padding: 2% ;
+        max-width:unset ;        
+    }
+    
+}

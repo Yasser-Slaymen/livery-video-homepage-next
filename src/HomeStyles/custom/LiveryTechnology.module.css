@@ -1,0 +1,90 @@
+.LiverTechnology_Section {
+  position: relative;
+  max-width: 45em;
+  padding: 75px 0 0 30px;
+  margin: 1em;
+  height: 562px;
+  border-radius: 15px 15px 0 0;
+  background: linear-gradient(to bottom, transparent 0%, white 100%),
+    linear-gradient(
+      to right,
+      rgba(219, 147, 255, 0.3),
+      rgba(113, 227, 255, 0.3)
+    );
+}
+.LiverTechnology_Componentname {
+  color: #18162d80;
+  font-family: "Helvetica", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2.06em;
+  letter-spacing: 4px;
+}
+.LiverTechnology_heading {
+  font-family: "Raleway", Sans-serif;
+  font-size: 24px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.13em;
+  letter-spacing: 3px;
+  max-width: 20rem;
+  background: linear-gradient(260deg, #79ddff 0%, #cf82ff 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.LiverTechnology_Text > p {
+  font-size: 15px;
+  font-family: "Raleway", Sans-serif;
+  font-weight: 400;
+  line-height: 2em;
+  color: #18162d;
+  max-width: 639px;
+  margin: 1em 0.5em 1em 0.5em;
+}
+.LiverTechnology_Img {
+  position: absolute;
+  top: -3.5em;
+  left: 7em;
+  max-width: 251px;
+  max-height: 250px;
+}
+@media (min-width: 45em) {
+  .LiverTechnology_Section {
+    position: relative;
+    max-width: unset;
+    width: 850px;
+    padding: 75px 0 0 30px;
+    margin: 7em 40px 0 0;
+    min-height: 562px;
+  }
+  .LiverTechnology_heading {
+    font-size: 40px;
+  }
+  .LiverTechnology_Text > p {
+    font-size: 15px;
+    font-family: "Raleway", Sans-serif;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: #18162d;
+    max-width: 536px;
+    width: 100%;
+    margin-bottom: 2em;
+  }
+  .LiverTechnology_Img {
+    position: absolute;
+    top: -3em;
+    left: 11em;
+    width: 250px;
+    height: 200px;
+  }
+}
+@media (min-width: 85em) {
+  .LiverTechnology_Img {
+    position: absolute;
+    top: -5em;
+    left: 19em;
+    width: 400px;
+    height: 400px;
+  }
+}

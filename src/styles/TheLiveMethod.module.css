@@ -1,0 +1,119 @@
+.Fourthection {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 2em;
+  max-width: 45em;
+}
+.fourth_secondtitle {
+  background: -webkit-linear-gradient(0deg, #ff8dc8, #ffbe4b);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 0.9em;
+  margin-bottom: 1em;
+  font-weight: 1;
+  text-transform: uppercase;
+}
+.fourth_Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  min-height: 266px;
+  border-radius: 0.5em;
+  background: linear-gradient(90deg, #ff8dc825 0%, #ffbe4b25 100%);
+}
+.fourth_title {
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.2em;
+  background: -webkit-linear-gradient(0deg, #ff8dc8, #ffbe4b);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-color: transparent;
+}
+
+.fourth_Sectiontext4 {
+  text-align: start;
+  font-weight: unset;
+  font-size: 1em;
+  line-height: unset;
+}
+.fourth_imgGirl {
+  position: absolute;
+  top: 33%;
+  left: 50%;
+  width: 180px;
+  height: 244px;
+}
+.fourth_imgDolar {
+  position: absolute;
+  top: -8%;
+  left: 44%;
+  width: 130px;
+  height: 236px;
+}
+.fourth_Sectiontext4Link {
+  text-decoration: none;
+  color: #929aff;
+}
+@media (min-width: 45em) {
+  .Fourthection {
+    align-items: center;
+    max-width: unset;
+    margin-bottom: 4em;
+  }
+  .fourth_Content {
+    position: relative;
+    padding: 0;
+    max-width: var(--content-width);
+    width: 100%;
+    min-height: 240px;
+  }
+  .fourth_secondtitle {
+    text-align: start;
+    width: var(--content-width);
+    font-size: 1em;
+  }
+  .fourth_title {
+    max-width: 1020px;
+    font-size: 36px;
+    margin-top: 1em;
+    text-align: center;
+  }
+  .fourth_Sectiontext4 {
+    max-width: 381px;
+    width: 100%;
+  }
+  /*  responsive layout*/
+
+  @media (min-width: 45em) {
+    .fourth_Sectiontext4{
+      font-weight: unset;
+      font-size: 15px;
+      line-height: unset;
+      letter-spacing: 0.5px;
+      width: 370px;
+      margin-left: 12%;
+    }
+    }
+    @media (min-width: 98em) {
+      .fourth_Sectiontext4 {
+        font-weight: unset;
+        font-size: 15px;
+        line-height: unset;
+        letter-spacing: 0.5px;
+        width: 370px;
+        margin-left:unset;
+      }
+      }
+ 
+  .fourth_imgGirl {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+  }
+}

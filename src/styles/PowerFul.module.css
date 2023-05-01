@@ -1,0 +1,116 @@
+.PowerfulSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 45em;
+  padding: 2em;
+  background-color: #f9f9f9;
+}
+.PowerfulSection_1 h2 {
+  font-size: 26px;
+  text-align: start;
+}
+.PowerfulSection_1 p {
+  text-align: start;
+  font-family: "Raleway", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.64em;
+  letter-spacing: -0.27px;
+  color: #18162d;
+}
+.PowerfulSection_imgPc {
+  display: none;
+}
+
+.PowerfulSection_Links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.5em;
+}
+.PowerfulSection_Links h3 {
+  font-size: 20px;
+  margin: 0;
+}
+.PowerfulSection_Links p {
+  text-align: start;
+  font-family: "Raleway", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: -0.27px;
+  color: #18162d;
+}
+.powerful_link {
+  text-decoration: none;
+  color: #18162d;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 2.18px;
+}
+.powerful_Icon_arrowRight {
+  width: 15px;
+  height: 12px;
+}
+.powerful_link:hover .powerful_Icon_arrowRight {
+  transform: translateX(8px);
+  transition: all 0.3s ease-in-out;
+}
+@media (min-width: 45em) {
+  .PowerfulSection {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    padding: 2em;
+  }
+  .PowerfulSection_1 {
+    max-width: var(--content-width);
+    width: 100%;
+    margin-bottom: 1em;
+  }
+  .PowerfulSection_1 h2 {
+    font-size: 40px;
+    text-align: start;
+  }
+  .PowerfulSection_1 p {
+    max-width: 520px;
+  }
+  .PowerfulSection_imgMobile img {
+    display: none;
+  }
+  .PowerfulSection_imgPc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: var(--content-width);
+    width: 100%;
+    box-shadow: 1px 1px 10px 1px #cbc9e4;
+  }
+  .PowerfulSection_imgPc1 {
+    max-width: 1020px;
+    width: 100%;
+    max-height: 319px;
+    height: 100%;
+  }
+  .PowerfulSection_imgPc2 {
+    max-width: 680px;
+    width: 100%;
+    max-height: 319px;
+    height: 100%;
+  }
+  .PowerfulSection_Links {
+    position: absolute;
+    top: 60%;
+    left: 62%;
+  }
+}

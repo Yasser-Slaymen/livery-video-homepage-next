@@ -1,0 +1,113 @@
+.slideshow {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.5em;
+  padding: 3em;
+  max-width: 45em;
+  width: 100%;
+  max-height: 283px;
+  height: 100%;
+}
+.slideshow h2 {
+  font-size: 28px;
+  font-size: 26px;
+  font-family: "Raleway", Sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
+  text-align: start;
+  color: #18162d;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+button > img {
+  width: 20px;
+  height: 20px;
+}
+.slideshow_Container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 43em;
+  width: 100%;
+  overflow: hidden;
+  z-index: 99999;
+}
+.slideshow_Content {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  margin: 1em;
+  width: 100vw;
+  background-color: white;
+  z-index: -1;
+}
+.slideshow_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+.slideshow_item img{
+  width: 90px;
+  height: 60px;
+  object-fit: contain;
+}
+@media (min-width: 45em) {
+  .slideshow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5em;
+    padding: 3em;
+    max-width: unset;
+    max-height: 283px;
+    height: 100%;
+  }
+  .slideshow h2 {
+    font-size: 40px;
+  }
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  button > img {
+    width: 20px;
+    height: 20px;
+  }
+  .slideshow_Container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    max-width: 1120px;
+    z-index: 99999;
+  }
+  .slideshow_Content {
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    margin: 1em;
+    width: 100vw;
+    background-color: white;
+    z-index: -1;
+  }
+  .slideshow_item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+  .slideshow_item img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+  }
+}

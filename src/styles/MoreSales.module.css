@@ -1,0 +1,122 @@
+.MoreSales_Section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 45em;
+  padding: 2em;
+  background-color: #f9f9f9;
+}
+.MoreSales_img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.MoreSales_ContentScondtitle {
+  font-weight: 1;
+  font-size: 12px;
+  line-height: 1.2em;
+  letter-spacing: 2.5px;
+  text-align: start;
+  width: unset;
+  color: var(--secondtitle-color);
+  text-transform: uppercase;
+}
+.MoreSales_Content h2 {
+  text-align: start;
+  font-size: 26px;
+  font-family: "Raleway", Sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
+  text-align: start;
+  color: #18162d;
+}
+
+.MoreSalesSection_itemsListe p {
+  text-align: start;
+}
+.MoreSalesSection_itemsListe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: var(--secondtitle-color);
+}
+.MoreSales_article section {
+  max-height: unset;
+  max-width: unset;
+  background-color: unset;
+  padding: unset;
+}
+.MoreSalesSection_itemsListe p {
+  font-family: "Raleway", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7em;
+  color: #4a4a4a;
+}
+.MoreSalesSection_itemsListe ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0.7em;
+  margin-left: 1em;
+}
+.MoreSalesSection_itemsListe ul > li {
+  position: relative;
+  list-style: none;
+  font-family: "Raleway", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.7em;
+  color: #4a4a4a;
+}
+/* styling marker */
+.MoreSalesSection_itemsListe ul > li::before {
+  content: "";
+  position: absolute;
+  top: 18%;
+  left: -20px;
+  transform: 0;
+  display: flex;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #db93ff 0%, #71e3ff 108.2%);
+}
+
+@media (min-width: 45em) {
+  .MoreSales_Section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+  }
+  .MoreSales_Containar1 {
+    display: flex;
+    flex-direction: unset;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1020px;
+    width: 100%;
+    gap: 2em;
+  }
+  .MoreSales_Content {
+    max-width: 460px;
+  }
+  .MoreSales_Content h2 {
+    font-size: 40px;
+    margin-bottom: 0.4em;
+  }
+  .MoreSalesSection_itemsListe p {
+    margin-bottom: 1em;
+  }
+  .MoreSales_img {
+    max-width: 550px;
+    width: 100%;
+    max-height: 590px;
+    height: 100%;
+  }
+}

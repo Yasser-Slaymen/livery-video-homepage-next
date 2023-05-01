@@ -1,0 +1,140 @@
+.GameShows {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 45em;
+  margin-bottom: 2em;
+}
+.GameShows_Cotainer {
+  display: flex;
+  align-items: flex-end;
+  width: 100vw;
+  height: 102vh;
+  background: linear-gradient(to right, #ff8dc8, #ffbe4b);
+}
+.GameShows_Backgroundimg {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(/public/backgroundImages/Grouptest.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: calc(5% + 0px);
+  object-fit: cover;
+}
+
+/* content */
+.GameShows_Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.7em;
+  padding: 2em;
+}
+.GameShows_componentName {
+  font-family: "Helvetica", Sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 2.5px;
+  background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.GameShows_Content > h2 {
+  font-family: "Raleway", Sans-serif;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 1.1em;
+  max-width: 10em;
+  background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.GameShows_Dscription {
+  font-family: "Raleway", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 2em;
+  letter-spacing: 1.4px;
+  background: -webkit-linear-gradient(0deg, #ff8dc8 0%, #ffbe4b 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 45em) {
+  .GameShows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: unset;
+    margin-bottom: 4em;
+  }
+  .GameShows_Cotainer {
+    display: flex;
+    align-items: flex-end;
+    width: 94vw;
+    height: 92vh;
+    border-radius: 15px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #ff8dc8, #ffbe4b);
+  }
+  .GameShows_Backgroundimg {
+    position: relative;
+    height: 96vh;
+    background-image: url(/public//backgroundImages/Group\ 13.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: calc(5% + 0px);
+    object-fit: cover;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+
+  /* content */
+  .GameShows_Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* gap: 0.2em; */
+    width: 100%;
+    height: 89vh;
+  }
+  .GameShows_componentName {
+    width: 550px;
+    align-items: start;
+  }
+  .GameShows_Content > h2 {
+    z-index: 999;
+    font-size: 70px;
+    width: 550px;
+  }
+  .GameShows_Dscription {
+    font-size: 16px;
+    line-height: 1.7em;
+    width: 370px;
+    margin-bottom: 1em;
+  }
+  .GameShows_DscriptionBtn {
+    align-items: start;
+    width: 550px;
+  }
+}
+@media (min-width: 100em) {
+  /* content */
+  .GameShows_Content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 0.7em;
+    /* margin-left: 22%; */
+    height: 89vh;
+    width: 95%;
+  }
+}

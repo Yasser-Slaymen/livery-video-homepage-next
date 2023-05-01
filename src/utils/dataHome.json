@@ -1,0 +1,236 @@
+[
+  {
+    "id": 0,
+    "componentName": "Interactive video cloud",
+    "text": "Live video & interactions solution to power your live experiences"
+  },
+  {
+    "id": 1,
+    "componentName": "quick links",
+    "cards": [
+      {
+        "label": "live video solution",
+        "link": "https://www.liveryvideo.com/video/",
+        "img": "/imagesHomeJson/Card1@2x.webp"
+      },
+      {
+        "label": "compare cost between live stream solutions",
+        "link": "https://www.liveryvideo.com/livery-cost-comparison/",
+        "img": "/imagesHomeJson/CardCostComparison@2x (1).webp"
+      },
+      {
+        "label": "interactivity",
+        "link": "https://www.liveryvideo.com/interactivity/",
+        "img": "/imagesHomeJson/Card3@2x.webp"
+      },
+      {
+        "label": "livery in tow minutes",
+        "link": "https://www.liveryvideo.com/livery-video/livery-explained-in-2-minutes/",
+        "img": "/imagesHomeJson/LiveryIn2Min-copy.webp"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "componentName": "solutions",
+    "slickTrack": [
+      {
+        "title": "Live streaming",
+        "label": "Utra-low latency. sync. live streaming for professionals.",
+        "link": "https://www.liveryvideo.com/ultra-low-latency-video/",
+        "img": "/imagesHomeJson/live-streaming-card.webp"
+      },
+      {
+        "title": "Live e-learning",
+        "label": "Boost your team's performance withe engaging live sessions.",
+        "link": "https://www.liveryvideo.com/live-elearning-blueprint/",
+        "img": "/imagesHomeJson/live-e-learning-card.webp"
+      },
+      {
+        "title": "Live shopping",
+        "label": "Turn viewers into customers with a show that converts",
+        "link": "https://www.liveryvideo.com/live-shopping-solution/",
+        "img": "/imagesHomeJson/shopping-card.webp"
+      },
+      {
+        "title": "Sports & e-Sports",
+        "label": " Next level soprts experiences with all new possibilities",
+        "link": "https://www.liveryvideo.com/livery-usp-sports-betting/",
+        "img": "/imagesHomeJson/sports-e-Sports-card.webp"
+      },
+      {
+        "title": "Game shows & trivia",
+        "label": " Broadcast your own shows big time",
+        "link": "https://www.liveryvideo.com/gameshows-and-trivia/",
+        "img": "/imagesHomeJson/game-shows-trivia-card.webp"
+      },
+      {
+        "title": "Internal communication",
+        "label": "Boost your team's performance withe engaging live sessions.",
+        "link": "https://www.liveryvideo.com/livery-usp-internal-communication/",
+        "img": "/imagesHomeJson/live-e-learning-card.webp"
+      },
+      {
+        "title": "Over the top live video",
+        "label": "It's time to bring live entertainment into the future",
+        "link": "https://www.liveryvideo.com/livery-usp-over-the-top/",
+        "img": "/imagesHomeJson/Sevents-hybrid-events-card.webp"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "componentName": "interactive livestream solution",
+    "title": "Quality live streaming for professionals",
+    "services": [
+      {
+        "id": 1,
+        "secondtitle": "ultera-low latency video",
+        "description": "Less than 3 seconds of video latency at no additional cost.",
+        "icon": "/iconsInteractive/ULL-new.png"
+      },
+      {
+        "id": 2,
+        "secondtitle": "ready to reach millions",
+        "description": "Unmatched scalability powered by the world's largest Content Distribution Network.",
+        "icon": "/iconsInteractive/iconReach-new.png"
+      },
+      {
+        "id": 3,
+        "secondtitle": "great value",
+        "description": "Start streaming from just €450,-Check out our pricing page to customize your package.",
+        "icon": "/iconsInteractive/great-value-new.png"
+      },
+      {
+        "id": 4,
+        "secondtitle": "synchronized video",
+        "description": "Ensure everyone experiences the same thing at the same time.",
+        "icon": "/iconsInteractive/iconSync-new.png"
+      },
+      {
+        "id": 5,
+        "secondtitle": "interactivity",
+        "description": "Turn video into an experience that engages and converts. Use our powerful, ready-to-use interactions, or create your own.",
+        "icon": "/iconsInteractive/iconInteractivity-new.png"
+      },
+      {
+        "id": 6,
+        "secondtitle": "end to end & easy to use",
+        "description": "Livery comes with everything you need to power your interactive live stream.",
+        "icon": "/iconsInteractive/iconEasy-new.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "componentName": "raise the live bar",
+    "title": "the livery live method",
+    "text1": "Let's maximize your livestream results. Whether your goal is to make more sales, improve the learning experience, or create an engaging and memorable event, the Livery Live Method will help you do it.",
+    "text2": "It probably won't surprise you that we've hosted a lot of live events. With our free guide, you'll learn our tried and tested Livery Live Method in no time. Let's make your live shopping convert better, your events more fun, and your e-learning more effective.   Find out more below.",
+    "text3": "Find out more below.",
+    "img": "/iconsInteractive/woman.png"
+  },
+  {
+    "id": 5,
+    "componentName": "how does it work",
+    "title": "livery technology",
+    "text1": "Your audience deserves quick, responsive, reliable, and captivating content. You deserve to deliver that no matter how big your audience is at a price that won’t break the bank.",
+    "img": "/iconsInteractive/group-25.png"
+  },
+  {
+    "id": 6,
+    "componentName": "liver e-learning",
+    "title": "Enrich your course & improve student outcomes",
+    "description": "Improve the effectiveness of your blended or fully remote learning program with live & interactive livestream sessions.",
+    "peoleImg": "backgroundImages/LD-people.webp",
+    "isImg": "/backgroundImages/LS-interactions.webp",
+    "ldSmoke": "/backgroundImages/LD-smoke.webp"
+  },
+  {
+    "id": 7,
+    "componentName": "live shopping",
+    "title": "Turn passive viewers into paying customers",
+    "description": "Imagine your brand's live show, full of excitement, fun, exclusive content, and offers. Create your extra sales channel today and convert 5-10x better [1]."
+  },
+  {
+    "id": 8,
+    "componentName": "live sports & e.sports",
+    "title": "Join us in the next generation of live sports",
+    "description": "Take sports viewership to the next level with live & interactive low-latency livestreaming. Add interactivity, switch cameras, host quizzes, sell merchandise, and more."
+  },
+  {
+    "id": 9,
+    "componentName": "game showas & trivia",
+    "title": "Broadcast your live gameshow",
+    "description": "Imagine your live game show, full of excitement, fun, prizes and up to a million viewers at the same time."
+  },
+  {
+    "id": 10,
+    "componentName": "start now",
+    "title": "Easy to start, easy to use",
+    "description": "Start your stream in a couple of clicks. Log into our user-friendly content management system to customize your interactive elements and go live in seconds. Adjust your stream as you go with our presenter view and real-time data.",
+    "easyimg": "backgroundImages/easyStart.webp"
+  },
+  {
+    "id": 11,
+    "componentName": "experience livery",
+    "title": "Schedule a free demo",
+    "description": "We offer a free 20-minute live demo to help you fully immerse yourself in the Livery experience. Select a date or click here to learn a bit more first.",
+    "easyimg": "/backgroundImages/visual-interactivity@2x.webp"
+  },
+  {
+    "id": 12,
+    "componentName": "Trusted by customers worldwide",
+    "movenaimations": [
+      {
+        "id": 1,
+        "icon": "/moveanimations/akamai.svg"
+      },
+      {
+        "id": 2,
+        "icon": "/moveanimations/effenaar.svg"
+      },
+      {
+        "id": 3,
+        "icon": "/moveanimations/exmachina.svg"
+      },
+      {
+        "id": 4,
+        "icon": "/moveanimations/hepsiburada.svg"
+      },
+      {
+        "id": 5,
+        "icon": "/moveanimations/horecava.svg"
+      },
+      {
+        "id": 6,
+        "icon": "/moveanimations/kviz.svg"
+      },
+      {
+        "id": 7,
+        "icon": "/moveanimations/nationale-nederlanden.svg"
+      },
+      {
+        "id": 8,
+        "icon": "/moveanimations/nestle.svg"
+      },
+      {
+        "id": 9,
+        "icon": "/moveanimations/tasting-game.svg"
+      },
+      {
+        "id": 10,
+        "icon": "/moveanimations/vitens.svg"
+      },
+      {
+        "id": 11,
+        "icon": "/moveanimations/vodafone.svg"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "componentName": "transparent and flexible pricing",
+    "title": "Great value in a couple of clicks"
+  }
+]

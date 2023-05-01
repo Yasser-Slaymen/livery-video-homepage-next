@@ -1,0 +1,183 @@
+.MobileMenuContianer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 45em;
+  width: 100%;
+  background-color: transparent;
+  z-index: 9999999;
+}
+
+/* logoheader */
+.MobileMenu_Position {
+  position: absolute;
+  top: 3.5vh;
+  left: 50%;
+}
+.MobileMenuCon_headerlogo {
+  max-width: 70px;
+  max-height: 57px;
+}
+.hamburgerBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  border: 0;
+  margin: 1.5em 0 0 1em;
+  background-color: transparent;
+  z-index: 999999999;
+}
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px;
+}
+
+.line {
+  width: 30px;
+  height: 5px;
+  border-radius: 1em;
+  background-color: #fff;
+  margin: 5px 0;
+}
+/* close */
+.close {
+  position: relative;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  /* padding: 15px; */
+}
+
+.closeline {
+  position: absolute;
+  width: 30px;
+  height: 5px;
+  border-radius: 1em;
+  background-color: #333;
+  transform-origin: center;
+}
+
+.closeline:first-child {
+  transform: rotate(45deg);
+}
+.closeline:last-child {
+  transform: rotate(-45deg);
+}
+/*inside menu  */
+.MobileMenuContent {
+  position: absolute;
+  top: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  background-color: #ffff;
+  height: 100vh;
+  animation: slideIn 0.5s ease;
+}
+
+.hidden {
+  animation: slideOut 0.5s ease;
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  width: 100%;
+  background-color: #ffff;
+  height: 100vh;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0%);
+  }}
+
+  @keyframes slideOut {
+    from {
+      transform: translateX(0%);
+    }
+    to {
+      transform: translateX(-100%);
+      display: none;
+    }
+  }
+.MobileListItems {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1em;
+  align-items: flex-start;
+  list-style: none;
+  margin: 3em 0 2em 0;
+  max-width: 294px;
+  width: 100%;
+}
+.MobileListItems li {
+  font-family: "Raleway", Sans-serif;
+  font-size: 15px;
+  color: #18162d;
+  font-weight: 600;
+}
+.MobileListItems li:hover {
+  color: #929aff;
+}
+.MobileListItems li > a {
+  font-family: "Raleway", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #18162d;
+  text-decoration: none;
+}
+.MobileListItems li > a:hover {
+  color: #929aff;
+}
+
+.Mobile_listeFirst a,
+.Mobile_listPricing a {
+  font-family: "Raleway", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+}
+/* LOGO */
+.Mobile_logo {
+  width: 172px;
+  height: 139px;
+}
+/* BTN */
+.Mobile_btn {
+  display: grid;
+  place-items: center;
+  text-decoration: none;
+  max-width: 294px;
+  width: 100%;
+  height: 58px;
+  color: #929aff;
+  border: 2px solid #929aff;
+  border-radius: 0.5em;
+}
+.Mobile_btn:hover {
+  color: var(--withe);
+  background: linear-gradient(90deg, #db93ff 0%, #71e3ff 108.2%);
+}
+
+@media (min-width: 45em) {
+  .MobileMenuContianer {
+    display: none;
+  }
+}

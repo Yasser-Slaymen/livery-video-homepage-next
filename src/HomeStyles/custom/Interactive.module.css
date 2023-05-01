@@ -1,0 +1,92 @@
+.Interactive_Sections {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: center;
+  max-width: 45em;
+  margin-top: 5em;
+}
+.Interactive_Sections > p {
+  color: #18162d80;
+  font-family: "Helvetica", Sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 2.06em;
+  letter-spacing: 4px;
+  text-align: center;
+}
+.Interactive_Sections > h2 {
+  font-size: 26px;
+  font-family: "Raleway", Sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #18162d;
+}
+
+.Services_Content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2em;
+}
+.Services_Icons {
+  max-width: 162px;
+  max-height: 152px;
+}
+.Services_Secondtitle {
+  font-size: 15px;
+  font-family: "Raleway", Sans-serif;
+  font-weight: 600;
+  line-height: 1.6em;
+  letter-spacing: 1.4px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #18162d;
+}
+.Services_Description > p {
+  font-size: 15px;
+  font-family: "Raleway", Sans-serif;
+  font-weight: 400;
+  line-height: 1.5em;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #18162d;
+  max-width: 35em;
+  margin: 0.5em;
+}
+@media (min-width: 45em) {
+  .Interactive_Sections {
+    max-width: unset;
+  }
+  .Services_Content {
+    margin: 1em;
+  }
+  /*services  */
+  .Services_Containar {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100vw;
+    margin: 0 auto;
+  }
+  .Interactive_Sections > h2 {
+    font-size: 40px;
+    font-weight: 700;
+   
+  }
+  .Services_Description > p {
+    max-width: unset;
+    width: 325px;
+  }
+}
+@media (min-width: 80em) {
+  .Services_Containar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 1200px;
+    margin: 0 auto;
+  }
+}
