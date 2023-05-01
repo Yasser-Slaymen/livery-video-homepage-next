@@ -1,27 +1,103 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --content-width: 1120px;
+  --color-primary: #6ec1e4;
+  --color-secondary: #54595f;
+  --e-global-color-text: #4a4a4a;
+  --e-global-color-accent: #61ce70;
+  --e-global-color-42dbc0b: #18162d;
+  --secondtitle-color: #18162d80;
+  --e-global-color-b43d715: #71e3ff;
+  --e-global-color-d7c7dc1: #db93ff;
+  --e-global-color-0e6ba50: #18162d1a;
+  --e-global-color-6ba0c20: #292648;
+  --e-global-color-b2acc2c: #f9f9f9;
+  --e-global-color-43a261f: #545454;
+  --e-global-color-57ee28c: #dde1e5;
+  --e-global-color-445a3d7: #929aff;
+  --withe: #ffffff;
+  --e-global-color-85f6500: #ffffff75;
+  --e-global-color-f166037: #ffffff00;
+  --wp--preset--gradient--luminous-dusk: linear-gradient(
+    135deg,
+    rgb(199, 81, 192) 50%,
+    rgb(65, 88, 208) 100%
+  );
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "AvenirNext", sans-serif;
+  src: url(/src/Fonts/26301410506.ttf);
+  font-style: normal;
+  font-weight: 600;
 }
+* {
+  margin: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
 
+}
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  scroll-behavior: smooth;
+  background-color: var(--withe);
+  overflow-x: hidden;
+  font-family: "Raleway", Sans-serif;
 }
+a {
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+}
+/* carousel dots */
+/* .dot {
+  height: 10px;
+  width: 10px;
+} */
+
+/* .Secondtitle{
+  font-weight: 1;
+  font-size: 12px;
+  line-height: 1.2em;
+  letter-spacing: 2.5px;
+  width: unset;
+  color: var(--secondtitle-color);
+  text-transform: uppercase;
+} */
+
+/* .MoreSales_Content h2 {
+  text-align: start;
+  font-size: 26px;
+  font-family: "Raleway", Sans-serif;
+  font-weight: 700;
+  line-height: 1.2em;
+  text-align: start;
+  color: #18162d;
+} */
+/* .LiveVideo_link {
+  position: absolute;
+  top: 37%;
+  left: 6%;
+  text-decoration: none;
+  color: #18162d;
+  font-family: Helvetica;
+  font-size: 12px;
+  font-weight: 800;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: 2.18px;
+}
+.LiveVideo_Icon_arrowRight {
+  width: 15px;
+  height: 12px;
+}
+.LiveVideo_link:hover .LiveVideo_Icon_arrowRight {
+  transform: translateX(8px);
+  transition: all 0.3s ease-in-out;
+} */
+

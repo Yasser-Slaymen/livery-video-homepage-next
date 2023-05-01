@@ -1,0 +1,32 @@
+.GetStartedBtn {
+  display: inline-block;
+  background-image: linear-gradient(
+    260deg,
+    var(--e-global-color-b43d715) 0%,
+    var(--e-global-color-d7c7dc1) 100%
+  );
+  border-radius: 5px;
+  border-width: 2.5px 0 2.5px 0;
+  border-color: transparent;
+  border-style: solid;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: "Raleway", Sans-serif;
+  font-weight: bold;
+  line-height: 1.2em;
+  letter-spacing: 2.5px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 186px;
+  height: 49px;
+  padding-top: 16px;
+  color: #ffffff;
+  margin: 0 auto;
+}
+.GetStartedBtn:hover {
+  background-image: linear-gradient(
+    260deg,
+    #6dcfe8 10%,
+    #c888e8 100%
+  );
+}

@@ -1,0 +1,48 @@
+.SearchInput_Section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  background-color: transparent;
+  max-width: 45em;
+}
+#Livery_search {
+  position: absolute;
+  top: 0rem;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+#Livery_search input {
+  width: 303px;
+  height: 30px;
+  border: 0px;
+  border-bottom: 3px solid #929aff;
+  background-color: transparent;
+  color: #ffff;
+}
+#Livery_search input:focus {
+  outline: none;
+}
+#Livery_search input::placeholder {
+  color: #ffff;
+  font-size: 1.2em;
+}
+
+@media (min-width: 45em) {
+  .SearchInput_Section {
+    max-width: 100%;
+  }
+  #Livery_search {
+    position: absolute;
+    top: 3rem;
+  }
+  #Livery_search input {
+    width: 350px;
+    height: 30px;
+  }
+}

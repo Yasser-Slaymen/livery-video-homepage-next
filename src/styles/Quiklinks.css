@@ -1,0 +1,29 @@
+
+#QuiklinksId .slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#QuiklinksId .slick-dots li {
+  margin: 0 10px;
+  background-color: transparent;
+}
+#QuiklinksId .slick-dots li button {
+  font-size: 10px;
+  background-color: #ffffff50;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+#QuiklinksId .slick-dots li.slick-active button {
+  background-color: #ffffff;
+}
+#QuiklinksId #QuiklinksId .slick-dots li button:before {
+  color: transparent;
+  opacity: 0;
+  content: none;
+}
+#QuiklinksId .slick-slide {
+  height: 400px;
+}
+

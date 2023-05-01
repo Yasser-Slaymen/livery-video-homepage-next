@@ -1,0 +1,55 @@
+.SolutionMobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.SolutionMobile_Btn {
+  width: 294px;
+  color: #18162d;
+  border: none;
+  background-color: transparent;
+}
+.SolutionMobile_Btn:hover {
+  color: #929aff;
+}
+/* close */
+.SolutionMobile_Close,
+.SolutionMobile_Open {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.SolutionMobile_Close p,
+.SolutionMobile_Open p {
+  font-family: "Raleway", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+/* icons */
+.CloseIcon,
+.OpenIcon {
+  width: 12px;
+  height: 12px;
+}
+.SolutionMobile_Items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1em;
+  list-style: none;
+  margin-left: 2em;
+}
+/* li */
+.SolutionMobile_Items li > a {
+  font-family: "Raleway", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  color: #18162d;
+  text-decoration: none;
+  background-color: transparent;
+}
+.SolutionMobile_Items li > :hover {
+  color: #929aff;
+}
