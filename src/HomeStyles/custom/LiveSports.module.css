@@ -17,7 +17,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: url(/public/backgroundImages/Group\ 9.webp);
+  background-image: url(/backgroundImages/Group\ 9.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: calc(5% + 0px);
@@ -86,7 +86,7 @@
   .LiveSports_Backgroundimg {
     position: relative;
     height: 97vh;
-    background-image: url(/public//backgroundImages/Group\ 8.webp);
+    background-image: url(/backgroundImages/Group\ 8.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: calc(5% + 0px);

@@ -40,6 +40,7 @@
   #Livery_search {
     position: absolute;
     top: 3rem;
+    background-color: red;
   }
   #Livery_search input {
     width: 350px;

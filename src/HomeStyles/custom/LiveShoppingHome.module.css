@@ -86,7 +86,7 @@
   .LiveShoppingHome_Backgroundimg {
     position: relative;
     height: 96vh;
-    background-image: url(/public//backgroundImages/Group\ 12.png);
+    background-image: url(/backgroundImages/Group\ 12.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: calc(5% + 0px);

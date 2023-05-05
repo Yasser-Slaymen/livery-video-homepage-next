@@ -17,7 +17,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: url(/public/backgroundImages/Grouptest.webp);
+  background-image: url(/backgroundImages/Grouptest.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: calc(5% + 0px);
@@ -86,7 +86,7 @@
   .GameShows_Backgroundimg {
     position: relative;
     height: 96vh;
-    background-image: url(/public//backgroundImages/Group\ 13.webp);
+    background-image: url(/backgroundImages/Group\ 13.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: calc(5% + 0px);

@@ -4,7 +4,6 @@ import FooterLogo from "./FooterLogo";
 import SearchGoogle from "./SearchGoogle";
 import Link from "next/link";
 
-
 interface DataType {
   id?: number;
   componentName?: string;
@@ -27,7 +26,11 @@ export default function Footer() {
         </figure>
         {/* links left */}
         <ul className={styles.FooterSection_itemsListe}>
-        <li><Link  className={styles.FooterSection_itemsListeLink} href="/">Home</Link></li>
+          <li>
+            <Link className={styles.FooterSection_itemsListeLink} href="/">
+              Home
+            </Link>
+          </li>
 
           {dataItem.myLeftList?.map((item) => (
             <li key={item.name}>

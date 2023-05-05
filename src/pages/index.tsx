@@ -9,7 +9,7 @@ import Flexible from "../libhome/genral/Flexible";
 export default function Home() {
   return (
     <main>
-       <HeroSection />
+      <HeroSection />
       <LiveStreaming />
       <Technology />
       <Engagement />

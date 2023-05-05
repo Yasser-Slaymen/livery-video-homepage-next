@@ -17,7 +17,7 @@
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: url(/public/backgroundImages/Group\ 11.webp);
+  background-image: url(/backgroundImages/Group\ 11.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: calc(5% + 0px);
@@ -105,7 +105,7 @@
   .LiveLearning_Backgroundimg {
     position: relative;
     height: 96vh;
-    background-image: url(/public/backgroundImages/Group\ 11.webp);
+    background-image: url(/backgroundImages/Group\ 11.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: calc(5% + 0px);
