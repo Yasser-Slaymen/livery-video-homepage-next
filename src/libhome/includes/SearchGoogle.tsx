@@ -25,9 +25,9 @@ export default function SearchGoogle() {
 
   return (
     <section className={styles.SearchInput_Section}>
-      <form onSubmit={handleSubmit} id="Livery_search">
+      <form onSubmit={handleSubmit} id="Livery_search"  className={styles.Livery_search}>
         <label htmlFor="myInput">
-          <button type="submit"  id="buttonTitle" title="Title">
+          <button type="submit"  id="buttonTitle" title="Title" className={styles.Livery_SearchBtn}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="icon icon-tabler icon-tabler-search"

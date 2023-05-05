@@ -7,8 +7,14 @@
   gap: 1em;
   background-color: transparent;
   max-width: 45em;
+ 
 }
-#Livery_search {
+.Livery_SearchBtn{
+  background-color: transparent;
+  border: none;
+
+}
+.Livery_search {
   position: absolute;
   top: 0rem;
   display: flex;
@@ -17,7 +23,7 @@
   align-items: center;
   background-color: transparent;
 }
-#Livery_search input {
+.Livery_search input {
   width: 303px;
   height: 30px;
   border: 0px;
@@ -25,10 +31,10 @@
   background-color: transparent;
   color: #ffff;
 }
-#Livery_search input:focus {
+.Livery_search input:focus {
   outline: none;
 }
-#Livery_search input::placeholder {
+.Livery_search input::placeholder {
   color: #ffff;
   font-size: 1.2em;
 }
@@ -36,13 +42,15 @@
 @media (min-width: 45em) {
   .SearchInput_Section {
     max-width: 100%;
+    width:300px ;
   }
-  #Livery_search {
+
+  .Livery_search {
     position: absolute;
     top: 3rem;
-    background-color: red;
   }
-  #Livery_search input {
+  .Livery_search input {
+    width: 350px;
     width: 350px;
     height: 30px;
   }

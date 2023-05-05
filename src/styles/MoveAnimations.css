@@ -5,15 +5,14 @@
 }
 #MoveAnimationBar .slick-next:before {
   content: ".";
-  background-image: url(../../../public/iconsMoveBar/chevron-right.svg);
+  background-image: url(/iconsMoveBar/chevron-right.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-
 }
 #MoveAnimationBar .slick-prev:before {
   content: ".";
-  background-image: url(../../../public/iconsMoveBar/chevron-left.svg);
+  background-image: url(/iconsMoveBar/chevron-left.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -24,6 +23,5 @@
   line-height: 0;
   opacity: 1;
   color: transparent;
-  padding-bottom: .2em;
-
+  padding-bottom: 0.2em;
 }
