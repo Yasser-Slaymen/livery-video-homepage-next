@@ -1,7 +1,9 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head';
-
+import "@/styles/SlickSlider.css";
+import "@/styles/Quiklinks.css";
+import "@/styles/MoveAnimations.css";
 
 export default function App({ Component, pageProps }: AppProps) {
   return( <>
