@@ -1,16 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# home page
+![Screenshot 2023-05-20 134326](https://livery-video-homepage-next.vercel.app/)
 
-## Getting Started
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+## ☸️Kenmerken
+* HTML
+* CSS
+* React
+* Typscript
+* Figma
+* CMS: local Json
+
+
+## 🧭Installatie & Gebruik
+* Cloning the repository
+```javascript 
+git clone https://github.com/Yasser-Slaymen/livey-home-testing-live.git
+Moving to the folder cd livey-home-testing-live
+
+Install NPM packages
+
+ npm install
+ 
+Run local server
+
+npm run start
+   
 ```
+
+
+### `npm run build`
+
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
