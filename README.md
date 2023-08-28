@@ -14,7 +14,7 @@
 ## 🧭Installatie & Gebruik
 * Cloning the repository
 ```javascript 
-git clone https://github.com/Yasser-Slaymen/livey-home-testing-live.git
+git clone https://github.com/Yasser-Slaymen/livery-video-homepage-next.git
 Moving to the folder cd livey-home-testing-live
 
 Install NPM packages
