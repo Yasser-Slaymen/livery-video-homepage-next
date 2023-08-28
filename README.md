@@ -1,4 +1,4 @@
-# Liver Video-Nextjs
+# Livery Video-Nextjs
 
 ![Screenshot 2023-05-20 134326](https://github.com/Yasser-Slaymen/livery-video-homepage-next/assets/90189815/0255b8cc-7bcb-4c3c-8bc9-419615d2066d)
 
