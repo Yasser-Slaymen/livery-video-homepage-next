@@ -17,8 +17,15 @@
   background-position: center;
   background-size: contain;
 }
-#MoveAnimationBar .slick-prev:before,
-.slick-next:before {
+#MoveAnimationBar .slick-prev:before {
+  font-size: 150px;
+  line-height: 0;
+  opacity: 1;
+  color: transparent;
+  padding-bottom: 0.2em;
+}
+
+#MoveAnimationBar .slick-next:before {
   font-size: 150px;
   line-height: 0;
   opacity: 1;
